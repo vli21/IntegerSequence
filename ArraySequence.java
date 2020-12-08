@@ -38,7 +38,7 @@ public class ArraySequence implements IntegerSequence{
 
     }
     this.currentIndex+=1;
-    return prevCurrent;
+    return data[prevCurrent];
 
 }
 }
